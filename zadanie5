@@ -1,0 +1,3 @@
+with open("notwania_gieldowe.txt", "r") as plik:
+    for linia in plik:
+        print(linia.strip())
